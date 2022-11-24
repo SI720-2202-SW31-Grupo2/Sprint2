@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c85517ac-112b-4b3f-8566-854d48c30b1c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Business.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Business.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Buyer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Cancellation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Cancellation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Complain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Complain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/FavouriteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/FavouriteList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/PaymentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Promo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Promo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/ShopList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/ShopList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Ubication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Ubication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Voucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Voucher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

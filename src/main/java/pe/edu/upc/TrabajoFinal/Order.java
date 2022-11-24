@@ -11,7 +11,7 @@ public class Order {
     private Review OrderReview;
     public Order(String status, boolean deliveryConfirmation){
         this.OrderID = (int)(Math.random()*1000+1);
-        this.Status = "No confirmado";
+        this.Status = status;
         this.DeliveryConfirmation = deliveryConfirmation;
         this.OrderConfirmation = false;
         this.DeliveryTime = 0;
