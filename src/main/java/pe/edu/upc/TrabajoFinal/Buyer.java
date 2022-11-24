@@ -35,5 +35,7 @@ public class Buyer {
         BuyerPaymentMethod = new PaymentMethod(kind, accountNumber, firstname, lastname, month, year, cvv);
     }
     public int GetBuyerID(){ return BuyerID; }
+    public String GetBuyerFirstName(){ return FirstName; }
+    public String GetBuyerLastName(){ return LastName; }
 }
 
