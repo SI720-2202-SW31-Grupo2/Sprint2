@@ -27,5 +27,10 @@ public class Category {
     public void SetCategoryDescription(String description){
         this.Description=description;
     }
+    public void PrintCategory(){
+        System.out.println("Category N " + CategoryID + "\n");
+        System.out.println("Name : " + Name + "\n");
+        System.out.println("Description : " + Description + "\n");
+    }
 }
 

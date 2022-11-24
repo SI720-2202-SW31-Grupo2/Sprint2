@@ -27,4 +27,12 @@ public class Promo {
     public boolean GetPromoStatus(){ return Status; }
     public void PublishPromo(){ this.Status = true; }
     public void TakeOffPromo(){ this.Status = false;}
+    public void PrintPromo(){
+        System.out.println("Promo N " + PromoID + "\n");
+        System.out.println("Description: " + Description + "\n");
+        System.out.println("First product quantity " + FirstProductQuantity + "\n");
+        System.out.println("Second product quantity " + SecondProductQuantity + "\n");
+        if(Status) System.out.println("Promo status: Active\n");
+        else System.out.println("Promo status: Inactive\n");
+    }
 }

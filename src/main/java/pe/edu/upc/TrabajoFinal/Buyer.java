@@ -1,5 +1,7 @@
 package pe.edu.upc.TrabajoFinal;
 
+import java.util.Objects;
+
 public class Buyer {
     //fields
     private final int BuyerID;
@@ -25,8 +27,8 @@ public class Buyer {
         this.Password = password;
     }
     public void Login(String email, String password){
-        if(this.Email == email);
-        if(this.Password == password);
+        if(Objects.equals(this.Email, email)) System.out.println("Su login ha sido exitoso!");
+        if(Objects.equals(this.Password, password)) System.out.println("Su login no ha procedido, revise los datos ingresados");;
     };
     public void SetBuyerUbication(String address, String city){
         BuyerUbication = new Ubication(address, city);
@@ -35,5 +37,11 @@ public class Buyer {
         BuyerPaymentMethod = new PaymentMethod(kind, accountNumber, firstname, lastname, month, year, cvv);
     }
     public int GetBuyerID(){ return BuyerID; }
+    public String GetBuyerFirstName(){ return FirstName; }
+    public String GetBuyerLastName(){ return LastName; }
+    public void PrintBuyerUbication(){
+        System.out.println("Buyer : " + FirstName + " " + LastName + "\n");
+        BuyerUbication.PrintUbication();
+    }
 }
 

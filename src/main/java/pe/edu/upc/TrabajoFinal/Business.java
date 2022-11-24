@@ -28,4 +28,12 @@ public class Business {
     public void RegisterBusinessUbication(String address, String city){
         BusinessUbication = new Ubication(address, city);
     }
+    public void PrintBusinessData(){
+        System.out.println("Business N " + BusinessID + "\n");
+        System.out.println("Name: " + Name + "\n");
+        System.out.println("RUC: " + RUC + "\n");
+        if(State) System.out.println("State: Open\n");
+        else System.out.println("State: Close\n");
+        BusinessUbication.PrintUbication();
+    }
 }
