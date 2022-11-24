@@ -32,4 +32,14 @@ public class Product {
     public Category GetProductCategory(){ return ProductCategory; }
     public void SetProductCategory(String name, String description){ ProductCategory = new Category(name, description);}
     public Business GetProductBusiness(){ return ProductBusiness; }
+    public void PrintProductData(){
+        System.out.println("Product N " + ProductID + "\n");
+        System.out.println("Name: " + Name + "\n");
+        System.out.println("Description: " + Description + "\n");
+        System.out.println("Stock: " + Stock + "\n");
+        System.out.println("Brand: " + Brand + "\n");
+        System.out.println("Price: " + Price + "\n");
+        System.out.println("Category: " + ProductCategory + "\n");
+        System.out.println("Business: " + ProductBusiness + "\n");
+    }
 }

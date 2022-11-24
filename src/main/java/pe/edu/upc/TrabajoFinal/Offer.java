@@ -21,4 +21,11 @@ public class Offer {
     public boolean GetOfferStatus(){ return OfferStatus; }
     public void PublishOffer(){ OfferStatus = true; }
     public void TakeOffOffer(){ OfferStatus = false; }
+    public void PrintOffer(){
+        System.out.println("Offer N " + OfferID + "\n");
+        System.out.println("Description: " + Description + "\n");
+        System.out.println("Discount rate " + DiscountRate + "\n");
+        if(OfferStatus) System.out.println("Offer status: Active\n");
+        else System.out.println("Offer status: Inactive\n");
+    }
 }

@@ -13,5 +13,10 @@ public class Review {
     public String GetComment(){ return Comment; }
     public void SetComment(String comment){ this.Comment = comment; }
     public int GetPunctuation(){ return Punctuation; }
-    public void SetPuctuation(int punctuation){ this.Punctuation = punctuation; }
+    public void SetPunctuation(int punctuation){ this.Punctuation = punctuation; }
+    public void PrintPunctuation(){
+        System.out.println("Review N " + ReviewID + "\n");
+        System.out.println("Comment: " + Comment + "\n");
+        System.out.println("Punctuation: " + Punctuation + "\n");
+    }
 }

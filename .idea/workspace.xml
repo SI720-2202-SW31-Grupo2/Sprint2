@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c85517ac-112b-4b3f-8566-854d48c30b1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Notification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Business.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Business.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Buyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Cancellation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Cancellation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Complain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Complain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/FavouriteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/FavouriteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/PaymentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Promo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Promo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/ShopList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/ShopList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Ubication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Ubication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Voucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/TrabajoFinal/Voucher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +47,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -1,5 +1,7 @@
 package pe.edu.upc.TrabajoFinal;
 
+import java.util.Objects;
+
 public class Owner {
     private int OwnerID;
     private String FirstName;
@@ -19,13 +21,21 @@ public class Owner {
         this.Password = password;
     }
     public void Login(String email, String password){
-        if(this.Email == email);
-        if(this.Password == password);
+        if(Objects.equals(this.Email, email)) System.out.println("Your login has been confirmed ");
+        if(Objects.equals(this.Password, password)) System.out.println("Your login has not been confirmed ");
     };
     public int GetOwnerID(){ return OwnerID; }
     public void SetOwnerBusiness(String name, long ruc, Ubication ubication){
         business = new Business(name, ruc, ubication);
     }
     public Business GetOwnerBusiness(){ return this.business; }
-
+    public void PrintOwnerData(){
+        System.out.println("Owner N " + OwnerID + "\n");
+        System.out.println("First name: " + FirstName + "\n");
+        System.out.println("Last name " + LastName + "\n");
+        System.out.println("DNI " + DNI + "\n");
+        System.out.println("Email " + Email + "\n");
+        System.out.println("Phone number " + PhoneNumber + "\n");
+        business.PrintBusinessData();
+    }
 }

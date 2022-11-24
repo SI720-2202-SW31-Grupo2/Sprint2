@@ -14,4 +14,11 @@ public class Complain {
     public Business GetBusiness(){ return business; }
     public boolean GetComplainState(){ return ComplainState; }
     public void SetComplainState(boolean complainState){ this.ComplainState = ComplainState; }
+    public void PrintComplain(){
+        System.out.println("Complain N " + ComplainID + "\n");
+        System.out.println("Business : " + business + "\n");
+        System.out.println("Description of complain : " + Description + "\n");
+        if(ComplainState) System.out.println("Complain state : Resolve\n");
+        else System.out.println("Complain state : Not resolve\n");
+    }
 }

@@ -23,5 +23,12 @@ public class Cancellation {
     public String GetCancellationReason(){ return Reason; }
     public void SetCancellationRefund(boolean refund){ this.Refund = refund; }
     public void SetCancellationReason(String reason){ this.Reason = reason; }
+    public void PrintCancellation(){
+        System.out.println("Cancellation N " + CancellationID + "\n");
+        System.out.println("Fecha : " + Day + " - " + Month + " - " + Year + "\n");
+        System.out.println("Reason : " + Reason + "\n");
+        if(Refund) System.out.println("Refund : Yes\n");
+        else System.out.println("Refund : No\n");
+    }
 }
 

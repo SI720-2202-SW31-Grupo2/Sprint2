@@ -36,4 +36,15 @@ public class Order {
         OrderReview = new Review(comment, punctuation);
     }
     public Review GetOrderReview(){ return OrderReview; }
+    public void PrintOrder(){
+        System.out.println("Order N " + OrderID + "\n");
+        System.out.println("Status : " + Status + "\n");
+        if(OrderConfirmation) System.out.println("Is the order confirmed?: Yes\n");
+        else System.out.println("Is the order confirmed: No\n");
+        if(DeliveryConfirmation) System.out.println("Is the order by delivery?: Yes\n");
+        else System.out.println("Is the order by delivery?: No\n");
+        System.out.println("Delivery time : " + DeliveryTime + "\n");
+        OrderVoucher.PrintVoucher();
+        OrderReview.PrintPunctuation();
+    }
 }

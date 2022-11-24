@@ -22,4 +22,9 @@ public class Voucher {
     public void SetDay(int day){ this.Day = day; }
     public void SetMonth( int month){ this.Month = month; }
     public void SetYear( int year){ this.Year = year; }
+    public void PrintVoucher(){
+        System.out.println("Voucher N " + VoucherID + "\n");
+        System.out.println("Importe: " + Amount + "\n");
+        System.out.println("Fecha : " + Day + " - "+ Month + " - " + Year + "\n");
+    }
 }
